@@ -1,11 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 17
-VisualStudioVersion = 17.0.31612.314
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HotelSearch.Web", "HotelSearch.Web\HotelSearch.Web.csproj", "{A1B581B6-476D-462A-976C-2BA952461DC5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelSearch.Web", "HotelSearch.Web\HotelSearch.Web.csproj", "{A1B581B6-476D-462A-976C-2BA952461DC5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelSearch.Infrastructure", "HotelSearch.Infrastructure\HotelSearch.Infrastructure.csproj", "{EB93FE80-1769-4823-93CD-C40C43A1E68A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{450BDF7C-9525-4F37-86D5-2C167057D7C7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{2944DFAC-D0F4-46FE-AD46-BE231D9CD215}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HotelSearch.Infrastructure.Tests", "HotelSearch.Infrastructure.Tests\HotelSearch.Infrastructure.Tests.csproj", "{4A7B3A04-D141-4DE9-BD45-FB980909373B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +27,18 @@ Global
 		{EB93FE80-1769-4823-93CD-C40C43A1E68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB93FE80-1769-4823-93CD-C40C43A1E68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB93FE80-1769-4823-93CD-C40C43A1E68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A7B3A04-D141-4DE9-BD45-FB980909373B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7B3A04-D141-4DE9-BD45-FB980909373B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7B3A04-D141-4DE9-BD45-FB980909373B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7B3A04-D141-4DE9-BD45-FB980909373B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A1B581B6-476D-462A-976C-2BA952461DC5} = {2944DFAC-D0F4-46FE-AD46-BE231D9CD215}
+		{EB93FE80-1769-4823-93CD-C40C43A1E68A} = {2944DFAC-D0F4-46FE-AD46-BE231D9CD215}
+		{4A7B3A04-D141-4DE9-BD45-FB980909373B} = {450BDF7C-9525-4F37-86D5-2C167057D7C7}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CCD76DA2-514D-455D-9700-D5325647F1AE}
