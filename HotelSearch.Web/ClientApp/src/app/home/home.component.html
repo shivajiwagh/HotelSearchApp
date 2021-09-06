@@ -1,0 +1,42 @@
+<h1 id="tableLabel">List and Search Hotels</h1>
+
+<p *ngIf="!hotels"><em>Loading...</em></p>
+
+<div class="form-group row"></div>
+<div class="form-group row">
+  <label for="search" class="col-sm-1 col-form-label" style="text-align: right;">Search</label>
+  <div class="col-sm-11">
+    <input type="text" [(ngModel)]="searchValue" class="form-control" id="search" placeholder="Filter by name, description and rating" />
+  </div>
+</div>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="hotels">
+  <thead>
+    <tr style="cursor:pointer;">
+      <th [appSort]="hotels" data-order="desc" data-name="id" style="width: 50px;">
+        #
+      </th>
+      <th [appSort]="hotels" data-order="desc" data-name="name">
+        Name
+      </th>
+      <th [appSort]="hotels" data-order="desc" data-name="description">
+        Brief Description
+      </th>
+      <th [appSort]="hotels" data-order="desc" data-name="location">
+        Location
+      </th>
+      <th [appSort]="hotels" data-order="desc" data-name="rating" style="width: 150px;">
+        Rating
+      </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let hotel of hotels | searchFilter:searchValue">
+      <td>{{ hotel.id }}</td>
+      <td>{{ hotel.name }}</td>
+      <td>{{ hotel.description }}</td>
+      <td>{{ hotel.location }}</td>
+      <td>{{ hotel.rating }}</td>
+    </tr>
+  </tbody>
+</table>

@@ -1,0 +1,68 @@
+[
+  {
+    "name": "The Strawberry Bank Hotel",
+    "description": "Restaurant , Pub & Function Suite, Great bar, Free parking, Great dining. Great location",
+    "location": "Main Rd, Meriden, Coventry",
+    "rating": 2
+  },
+  {
+    "name": "Castle Limes Hotel",
+    "description": "Great housekeeping, Top-rated, Free parking, Near Warwick Castle",
+    "location": "Coventry Rd, Warwick",
+    "rating": 5
+  },
+  {
+    "name": "Travelodge Crawley",
+    "description": "Parking, Cleanliness, Location, Service, Breakfast, Bar, Very Good",
+    "location": "Pegler Way, Crawle",
+    "rating": 4
+  },
+  {
+    "name": "Crowne Plaza London - Gatwick Airport",
+    "description": "Contemporary airport hotel offering warm rooms & suites, plus a sleek restaurant, a gym & a bar",
+    "location": "Langley Dr, Crawley",
+    "rating": 4
+  },
+  {
+    "name": "Premier Inn London Gatwick Airport (Manor Royal) hotel",
+    "description": "En suite bedrooms in a budget hotel with an on-site restaurant and meeting rooms.",
+    "location": "Crawley Business Quarter, Fleming Way, Crawley",
+    "rating": 3
+  },
+  {
+    "name": "Walltree House",
+    "description": "Comfy clean beds and breakfast has the option to be delivered to our bedroom",
+    "location": "Walltree House, Brackley",
+    "rating": 5
+  },
+  {
+    "name": "The Grosvenor Hotel Rugby",
+    "description": "Free parking, Near public transport, Great service – Guests liked the service at this hotel",
+    "location": "Clifton Rd, Rugby",
+    "rating": 2
+  },
+  {
+    "name": "ibis Rugby East",
+    "description": "Unfussy property offering a bar/restaurant & meeting space, plus complimentary Wi-Fi",
+    "location": "Dirft East, Parklands, Crick",
+    "rating": 1
+  },
+  {
+    "name": "Deer Keeper's Hut",
+    "description": "Excellent hosts, wonderful quirky accommodation",
+    "location": "Yews Farm, Rugby Rd, Pailton, Rugby",
+    "rating": 0
+  },
+  {
+    "name": "The Pytchley Inn",
+    "description": "Busy country pub with all-day menu of grills and small plates, plus stylish en suite guestrooms",
+    "location": "High St, West Haddon, Northampton",
+    "rating": 3
+  },
+  {
+    "name": "Narrow Boat at Weedon",
+    "description": "Pub Restaurant, Bed & Breakfast Hotel, Stone baked pizzas and gastropub favourites feature on the menu of this quaint pub with canal views",
+    "location": "Watling Street, Stowehill, Northampton",
+    "rating": 2
+  }
+]
