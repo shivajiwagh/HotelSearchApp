@@ -13,20 +13,20 @@
 <table class='table table-striped' aria-labelledby="tableLabel" *ngIf="hotels">
   <thead>
     <tr style="cursor:pointer;">
-      <th [appSort]="hotels" data-order="desc" data-name="id" style="width: 50px;">
-        #
+      <th [appSort]="hotels" data-order="desc" data-name="id" style="width: 70px;">
+        #<i class="fa fa-fw fa-sort"></i>
       </th>
       <th [appSort]="hotels" data-order="desc" data-name="name">
-        Name
+        Name<i class="fa fa-fw fa-sort"></i>
       </th>
       <th [appSort]="hotels" data-order="desc" data-name="description">
-        Brief Description
+        Brief Description<i class="fa fa-fw fa-sort"></i>
       </th>
       <th [appSort]="hotels" data-order="desc" data-name="location">
-        Location
+        Location<i class="fa fa-fw fa-sort"></i>
       </th>
       <th [appSort]="hotels" data-order="desc" data-name="rating" style="width: 150px;">
-        Rating
+        Rating<i class="fa fa-fw fa-sort"></i>
       </th>
     </tr>
   </thead>
@@ -36,7 +36,9 @@
       <td>{{ hotel.name }}</td>
       <td>{{ hotel.description }}</td>
       <td>{{ hotel.location }}</td>
-      <td>{{ hotel.rating }}</td>
+      <td>
+        {{ hotel.rating }} <ngb-rating max="5" [(rate)]="hotel.rating" [readonly]="true" style="color:orange"></ngb-rating>
+      </td>
     </tr>
   </tbody>
 </table>
